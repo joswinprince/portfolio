@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  margin-top: 60px;
+}
+
+body.dark-mode .container {
+  background: #2a2a2a;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+body.dark-mode h1 {
+  color: #fff;
+}
+
+.tagline {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+.resume-actions {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1c6691;
+}
+
+section {
+  margin-top: 30px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+textarea {
+  height: 100px;
+}
+
+.theme-toggle {
+  text-align: right;
+  padding: 10px 20px;
+}
